@@ -73,6 +73,7 @@ class _DayViewState extends State<DayView> {
       if (focused) {
         horizontalHighlightedDayDecoration =
             widget.style.horizontalFocusedDayDecoration;
+        textStyle = widget.style.focusedDayTextStyle;
       }
     } else {
       if (widget.interaction == CalendarInteraction.selection) {
